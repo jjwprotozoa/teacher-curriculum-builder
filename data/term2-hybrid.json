@@ -1,0 +1,345 @@
+{
+    "term": "Term 2",
+    "weeks": [
+        {
+            "weekNumber": 12,
+            "theme": "Autumn & Leaves",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count collected leaves to 20; sort by size/shape; create AB/ABB patterns.",
+                "literacy": "Letters A/L; vocab: autumn, leaf, fall, crisp; sequence 'leaf journey'.",
+                "creative": "Leaf rubbings; warm-colour painting; leaf crowns.",
+                "motor": {
+                    "fine": "Peg leaf lines; tweezers leaf sort.",
+                    "gross": "Leaf pile jumps; balance beam 'log' walk.",
+                    "practicalLife": "Sweeping leaves; raking into piles."
+                },
+                "socialEmotional": "Talk about seasonal change and feelings; sharing collected treasures.",
+                "scienceInquiry": "Why leaves change colour; dry vs fresh leaves; moisture test.",
+                "resources": {
+                    "books": [
+                        "'Leaf Man'"
+                    ],
+                    "songs": [
+                        "Autumn leaves are falling down"
+                    ],
+                    "materials": [
+                        "Real leaves",
+                        "crayons",
+                        "rakes",
+                        "magnifiers"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 13,
+            "theme": "Plants & Gardening",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Measure plant growth with cubes; tally watering days; compare pot sizes.",
+                "literacy": "Letter P; labels: seed, root, stem, leaf; 'I can plant…' frames.",
+                "creative": "Seed mosaics; print with okra/potato stamps.",
+                "motor": {
+                    "fine": "Scoop, pour soil; spoon seeds.",
+                    "gross": "Carry watering cans; wheelbarrow walk.",
+                    "practicalLife": "Transplant seedlings; wipe spills."
+                },
+                "socialEmotional": "Taking turns to water; caring for living things.",
+                "scienceInquiry": "Seed germination jars; light vs dark growth; parts of a plant.",
+                "resources": {
+                    "books": [
+                        "'The Tiny Seed'"
+                    ],
+                    "songs": [
+                        "Plant a little seed"
+                    ],
+                    "materials": [
+                        "Soil",
+                        "seeds",
+                        "clear jars",
+                        "labels"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 14,
+            "theme": "Insects & Minibeasts",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count legs (skip-count intro by 2s); bar chart favourite bugs.",
+                "literacy": "Letter I/B; descriptive words: crawl, wings, antennae; simple fact cards.",
+                "creative": "Egg-box insects; symmetry butterfly painting.",
+                "motor": {
+                    "fine": "Eyedroppers 'nectar' transfer.",
+                    "gross": "Bug movement game: wiggle, crawl, flutter.",
+                    "practicalLife": "Gentle bug handling with brushes; clean terrarium."
+                },
+                "socialEmotional": "Respect tiny creatures; gentle touch practice.",
+                "scienceInquiry": "Life cycles (caterpillar→butterfly); magnifying observations.",
+                "resources": {
+                    "books": [
+                        "'The Very Hungry Caterpillar'"
+                    ],
+                    "songs": [
+                        "There's a tiny caterpillar on a leaf"
+                    ],
+                    "materials": [
+                        "Magnifiers",
+                        "picture cards",
+                        "terrarium"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 15,
+            "theme": "Homes & Buildings",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count windows/doors; compare tall/short; 2D→3D shape match (square→cube).",
+                "literacy": "Letter H; labels: roof, wall, door; story maps of 'my home'.",
+                "creative": "Box constructions; brick print skylines.",
+                "motor": {
+                    "fine": "Mini hammers/pegs into foam; tape lines.",
+                    "gross": "Build big-block house frames.",
+                    "practicalLife": "Wipe windows (spray + cloth); sort tools safely."
+                },
+                "socialEmotional": "Different types of homes; belonging and safety.",
+                "scienceInquiry": "Strong shapes (triangle vs square); which roof keeps water out?",
+                "resources": {
+                    "books": [
+                        "'A House Is a House for Me'"
+                    ],
+                    "songs": [
+                        "The wise man built his house"
+                    ],
+                    "materials": [
+                        "Boxes",
+                        "tape",
+                        "foam boards",
+                        "sponges"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 16,
+            "theme": "Water & Oceans",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Measure volumes (fill lines); compare sink/float counts; sequence 'first/then'.",
+                "literacy": "Letter W; vocab: splash, sink, float, deep; retell sea stories.",
+                "creative": "Ocean collage; bubble prints.",
+                "motor": {
+                    "fine": "Pipettes transfer blue water.",
+                    "gross": "Wave parachute play; boat carry relay.",
+                    "practicalLife": "Spill control trays; sponge squeeze work."
+                },
+                "socialEmotional": "Water safety rules; helping friends with towels.",
+                "scienceInquiry": "Sink/float; salt vs fresh water density; waterproof tests.",
+                "resources": {
+                    "books": [
+                        "'Commotion in the Ocean'"
+                    ],
+                    "songs": [
+                        "Slippery fish"
+                    ],
+                    "materials": [
+                        "Basins",
+                        "salt",
+                        "boats",
+                        "towels"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 17,
+            "theme": "Shapes & Patterns (Advanced)",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count sides/corners; copy/extend patterns AAB/ABB/ABC; compose shapes.",
+                "literacy": "Letters S/T; 'is, has' sentences about shapes.",
+                "creative": "Shape printing; mosaic tiling.",
+                "motor": {
+                    "fine": "Geoboards; tangrams.",
+                    "gross": "Shape floor-circuit (triangle hops).",
+                    "practicalLife": "Sorting by 2 features (colour + shape)."
+                },
+                "socialEmotional": "Pair work to complete pattern trails.",
+                "scienceInquiry": "Patterns in nature; honeycomb hexagons.",
+                "resources": {
+                    "books": [
+                        "'Round Is a Tortilla'"
+                    ],
+                    "songs": [
+                        "Shape songs"
+                    ],
+                    "materials": [
+                        "Geoboards",
+                        "rubber bands",
+                        "tangrams",
+                        "tiles"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 18,
+            "theme": "Numbers & Measurement",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Compare length/height/weight; non-standard units (cubes); early add/sub 'story sums'.",
+                "literacy": "Maths language: longer/shorter, heavier/lighter, more/less.",
+                "creative": "Number art (dot groups to 20); measuring strips.",
+                "motor": {
+                    "fine": "Clip numbers to quantities.",
+                    "gross": "Long jump measure; balance scale walk.",
+                    "practicalLife": "Weigh snacks equally (sharing)."
+                },
+                "socialEmotional": "Fair shares and turn-taking with tools.",
+                "scienceInquiry": "Which objects are magnetic & heavy/light; ramp distance measure.",
+                "resources": {
+                    "books": [
+                        "'How Big Is a Foot?'"
+                    ],
+                    "songs": [
+                        "Counting by 2s (action)"
+                    ],
+                    "materials": [
+                        "Balances",
+                        "cubes",
+                        "tape measures",
+                        "number cards"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 19,
+            "theme": "Feelings & Friendship",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Feelings tally chart; compare most/least; 5-step calm sequence.",
+                "literacy": "Letter F; emotion words; 'I feel… when…' frames.",
+                "creative": "Feelings faces collage; colour-emotion wheels.",
+                "motor": {
+                    "fine": "Thread 'calm beads'.",
+                    "gross": "Co-op games (parachute lift/low).",
+                    "practicalLife": "Grace & courtesy role-plays; offering help."
+                },
+                "socialEmotional": "Name emotions; toolbox (breathing, counting, asking for help).",
+                "scienceInquiry": "Heart rate before/after calm breaths; timer breathing to 20.",
+                "resources": {
+                    "books": [
+                        "'The Color Monster'"
+                    ],
+                    "songs": [
+                        "If you're happy and you know it (variants)"
+                    ],
+                    "materials": [
+                        "Mirrors",
+                        "emotion cards",
+                        "timers",
+                        "beads"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 20,
+            "theme": "Safety & Road Awareness",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count steps to stop line; sequence road-crossing steps (1–5).",
+                "literacy": "Letters S/R; safety words: stop, look, listen; simple posters.",
+                "creative": "Traffic light crafts; zebra crossing art.",
+                "motor": {
+                    "fine": "Sticker lane marking.",
+                    "gross": "Bike/scoot track with signs.",
+                    "practicalLife": "Role-play: checking both sides; holding hands."
+                },
+                "socialEmotional": "Protecting self and others; waiting turns at crossings.",
+                "scienceInquiry": "Reflective vs non-reflective tests; helmet drop demo (egg).",
+                "resources": {
+                    "books": [
+                        "'Stop, Look, Listen'"
+                    ],
+                    "songs": [
+                        "Road safety chant"
+                    ],
+                    "materials": [
+                        "Cones",
+                        "helmets",
+                        "reflective tape",
+                        "egg + padding"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 21,
+            "theme": "Transport – Air & Sea",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Compare distances on ramps (boats) & paper planes (counts to 20).",
+                "literacy": "Letters A/S; labels: sail, propeller, wing; story maps (start→destination).",
+                "creative": "Paper plane designs; sailboat collage.",
+                "motor": {
+                    "fine": "Nut/bolt 'engine' work.",
+                    "gross": "Runway take-off game; ocean wave play.",
+                    "practicalLife": "Wash & dry models; fold planes accurately."
+                },
+                "socialEmotional": "Travel manners; helping pack and wait.",
+                "scienceInquiry": "Lift (paper plane angles); buoyancy (hull shapes).",
+                "resources": {
+                    "books": [
+                        "'Amazing Airplanes'"
+                    ],
+                    "songs": [
+                        "Row, row, row your boat"
+                    ],
+                    "materials": [
+                        "Paper",
+                        "basins",
+                        "nuts/bolts",
+                        "ramps"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 22,
+            "theme": "South Africa & My Country",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count flag colours/shapes; graph favourite places/animals.",
+                "literacy": "Letters S/A; SA symbols words; 'I live in…' sentence starters.",
+                "creative": "Flag craft; Ndebele pattern art.",
+                "motor": {
+                    "fine": "Bead SA bracelets (patterns).",
+                    "gross": "Traditional dance moves; drum rhythms.",
+                    "practicalLife": "Set up 'heritage table'; care & order."
+                },
+                "socialEmotional": "Respect for cultures; sharing family traditions.",
+                "scienceInquiry": "Map basics (land/sea); big 5 facts; weather regions intro.",
+                "resources": {
+                    "books": [
+                        "Child-friendly SA picture atlas"
+                    ],
+                    "songs": [
+                        "Local folk songs (class-safe)"
+                    ],
+                    "materials": [
+                        "Beads",
+                        "pattern cards",
+                        "maps",
+                        "flag templates"
+                    ]
+                }
+            }
+        }
+    ]
+}

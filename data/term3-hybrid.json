@@ -1,0 +1,337 @@
+{
+    "term": "Term 3",
+    "weeks": [
+        {
+            "weekNumber": 23,
+            "theme": "Winter & Warm Clothes",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count clothing items to 20; compare thick/thin; match pairs (gloves, socks).",
+                "literacy": "Letter W; winter vocabulary; sequence dressing steps (1–5).",
+                "creative": "Texture collage (wool/felt); design a scarf pattern.",
+                "motor": {
+                    "fine": "Buttoning, zipping frames; peg-line mittens.",
+                    "gross": "'Get dressed' relay; balance on 'ice' spots.",
+                    "practicalLife": "Folding scarves; hanging coats."
+                },
+                "socialEmotional": "Caring for friends (help zip); discussing cold feelings & comfort.",
+                "scienceInquiry": "Why we feel cold; insulation test: cloth vs paper vs plastic.",
+                "resources": {
+                    "books": [
+                        "'The Jacket I Wear in the Snow'"
+                    ],
+                    "songs": [
+                        "Put on your jacket song"
+                    ],
+                    "materials": [
+                        "Zipping frames",
+                        "fabric scraps",
+                        "thermometer (toy)"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 24,
+            "theme": "Space & Sky",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count stars to 20; size order (planets models); simple AB patterns (moon phases).",
+                "literacy": "Letter S; sky words: sun, moon, star; tell 'night/day' stories.",
+                "creative": "Galaxy splatter art; foil 'moon' prints.",
+                "motor": {
+                    "fine": "Sticker constellations; tweezers 'meteor' transfer.",
+                    "gross": "Rocket jumps; 'orbit' circle run.",
+                    "practicalLife": "Polishing 'telescopes'; careful carrying of 'samples'."
+                },
+                "socialEmotional": "Wonder & curiosity sharing; taking turns at the 'scope'.",
+                "scienceInquiry": "Shadow length at times of day; dark vs light exploration.",
+                "resources": {
+                    "books": [
+                        "'Papa, Please Get the Moon for Me'"
+                    ],
+                    "songs": [
+                        "Twinkle, Twinkle (tempo variants)"
+                    ],
+                    "materials": [
+                        "Flashlights",
+                        "foil",
+                        "black paper"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 25,
+            "theme": "Shops & Money Play",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Counting 'coins' to 20; compare prices; simple add/sub with tokens.",
+                "literacy": "Letter M; labels: coin, price, sale; make 'shopping lists'.",
+                "creative": "Design shop signs; packaging collage.",
+                "motor": {
+                    "fine": "Coin sorting; clip price tags.",
+                    "gross": "Carry baskets; queue and step forward.",
+                    "practicalLife": "Role-play paying, giving change (token-based)."
+                },
+                "socialEmotional": "Taking turns; polite requests & thanks.",
+                "scienceInquiry": "Materials in packaging (paper/plastic/metal) sorting.",
+                "resources": {
+                    "books": [
+                        "'At the Market' (picture reader)"
+                    ],
+                    "songs": [
+                        "Five currant buns"
+                    ],
+                    "materials": [
+                        "Play money",
+                        "labels",
+                        "balance scale"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 26,
+            "theme": "Maps & Directions",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Steps counting (to 20) between stations; ordinal language (1st/2nd).",
+                "literacy": "Letter D; words: map, left, right; story maps.",
+                "creative": "Build a town mat; draw treasure maps (X marks!).",
+                "motor": {
+                    "fine": "Arrow stickers; line tracing.",
+                    "gross": "Follow-the-map obstacle route.",
+                    "practicalLife": "Placing signs, keeping order on 'roads'."
+                },
+                "socialEmotional": "Partner guide games; listening & patience.",
+                "scienceInquiry": "Compass demo (N/E/S/W) basics; magnet play.",
+                "resources": {
+                    "books": [
+                        "'Rosie's Walk'"
+                    ],
+                    "songs": [
+                        "The preposition song (class-safe)"
+                    ],
+                    "materials": [
+                        "Arrows",
+                        "cones",
+                        "large paper"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 27,
+            "theme": "Spring Buds & New Life",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Measure stem growth (cubes); tally sunny/rainy days.",
+                "literacy": "Letter B; new-life words: bud, bloom, hatch; sentence starters 'I see…'.",
+                "creative": "Flower prints; nest building from twigs.",
+                "motor": {
+                    "fine": "Seed spooning; tweezers to place 'buds'.",
+                    "gross": "Garden carry & sort relay.",
+                    "practicalLife": "Watering schedule chart; wipe spills."
+                },
+                "socialEmotional": "Gentle care of living things; turn-taking at watering.",
+                "scienceInquiry": "Sprouting tray; what plants need (light/water/soil) tests.",
+                "resources": {
+                    "books": [
+                        "'Planting a Rainbow'"
+                    ],
+                    "songs": [
+                        "Springtime song"
+                    ],
+                    "materials": [
+                        "Seeds",
+                        "clear jars",
+                        "soil",
+                        "labels"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 28,
+            "theme": "Five Senses (Deep Dive)",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Sort & count sensory items; graph favourite smells/tastes.",
+                "literacy": "Letter S (senses); descriptive words (soft, loud, sour).",
+                "creative": "Texture rubbings; sound shakers decoration.",
+                "motor": {
+                    "fine": "Dropper smell-mixing; sticker matches.",
+                    "gross": "Sound stop/go game; blindfold walk (with spotter).",
+                    "practicalLife": "Table wiping by feel; careful pouring (sound jars)."
+                },
+                "socialEmotional": "Respecting preferences; 'no thanks' language.",
+                "scienceInquiry": "Mystery boxes; sound vs vibration; light/dark viewing.",
+                "resources": {
+                    "books": [
+                        "'My Five Senses'"
+                    ],
+                    "songs": [
+                        "Five senses chant"
+                    ],
+                    "materials": [
+                        "Sound cylinders",
+                        "mystery bags",
+                        "spices"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 29,
+            "theme": "Materials & Construction (Advanced)",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Block counts; compare stability; 2D→3D build sequences.",
+                "literacy": "Letter C; words: brick, beam, arch, base.",
+                "creative": "Blueprint drawing; tape towers.",
+                "motor": {
+                    "fine": "Mini hammering (foam/pegs); nuts & bolts.",
+                    "gross": "Big-block building; carry & place safely.",
+                    "practicalLife": "Tool sorting & return trays."
+                },
+                "socialEmotional": "Team-build challenges; problem-solving talk.",
+                "scienceInquiry": "Which shape is strongest? Triangle vs square tests.",
+                "resources": {
+                    "books": [
+                        "'Iggy Peck, Architect' (read selectively)"
+                    ],
+                    "songs": [
+                        "Building song"
+                    ],
+                    "materials": [
+                        "Blocks",
+                        "foam boards",
+                        "bolts",
+                        "tape"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 30,
+            "theme": "Patterns & Pre-Coding",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Copy/extend AAB/ABB/ABC; make 2-attribute patterns (color+shape).",
+                "literacy": "Directional words for 'algorithms': first, next, last.",
+                "creative": "Pattern bracelets; stamping sequences.",
+                "motor": {
+                    "fine": "Tile sequencing; card sorting.",
+                    "gross": "Floor-arrow code routes.",
+                    "practicalLife": "Left→right tray sequences."
+                },
+                "socialEmotional": "Partner 'programmer & robot' game.",
+                "scienceInquiry": "Cause→effect chains; simple logic 'if… then…' play.",
+                "resources": {
+                    "books": [
+                        "'Follow the Pattern' (picture)"
+                    ],
+                    "songs": [
+                        "Clap patterns"
+                    ],
+                    "materials": [
+                        "Arrow cards",
+                        "tiles",
+                        "beads"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 31,
+            "theme": "Music & Rhythm",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count beats to 8/16; compare fast/slow; pattern claps.",
+                "literacy": "Letter R; words: rhythm, beat, tempo; lyric picture cards.",
+                "creative": "Instrument craft (shakers/drums).",
+                "motor": {
+                    "fine": "Bead rhythm strings.",
+                    "gross": "Dance & freeze; marching counts.",
+                    "practicalLife": "Instrument care & return."
+                },
+                "socialEmotional": "Group performance; take a bow & applaud peers.",
+                "scienceInquiry": "Sound vibrations (rubber band box); loud/soft tests.",
+                "resources": {
+                    "books": [
+                        "'Hand, Hand, Fingers, Thumb'"
+                    ],
+                    "songs": [
+                        "Rhythm echo games"
+                    ],
+                    "materials": [
+                        "Drums",
+                        "rubber bands",
+                        "boxes"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 32,
+            "theme": "Stories & Storytelling",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Sequence stories 1–5; count characters; compare lengths of tales (pages).",
+                "literacy": "Letter T; beginning/middle/end; retell with props.",
+                "creative": "Puppet making; story stones.",
+                "motor": {
+                    "fine": "Page turning; stick-puppet handles.",
+                    "gross": "Acting out roles; stage spaces.",
+                    "practicalLife": "Set up story corner; tidy props tray."
+                },
+                "socialEmotional": "Perspective taking (who felt what?).",
+                "scienceInquiry": "Light & shadow for storytelling; 'why' questions exploration.",
+                "resources": {
+                    "books": [
+                        "Class favourites (retell)"
+                    ],
+                    "songs": [
+                        "Storytime intro jingle"
+                    ],
+                    "materials": [
+                        "Puppets",
+                        "story stones",
+                        "shadow screen"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 33,
+            "theme": "Heritage & Traditions",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Graph favourite foods/dances; pattern bracelets (heritage colors).",
+                "literacy": "Letter H; words: culture, heritage, tradition; 'I celebrate…'.",
+                "creative": "Pattern art (e.g., Ndebele); simple drumming.",
+                "motor": {
+                    "fine": "Bead threading; stencil art.",
+                    "gross": "Dance steps; circle games.",
+                    "practicalLife": "Set up 'heritage table'; handle items safely."
+                },
+                "socialEmotional": "Respect for differences; sharing family stories.",
+                "scienceInquiry": "Map basics of regions; materials used in traditional crafts.",
+                "resources": {
+                    "books": [
+                        "Child-friendly heritage picture books"
+                    ],
+                    "songs": [
+                        "Local folk songs (class-safe)"
+                    ],
+                    "materials": [
+                        "Beads",
+                        "pattern cards",
+                        "maps"
+                    ]
+                }
+            }
+        }
+    ]
+}

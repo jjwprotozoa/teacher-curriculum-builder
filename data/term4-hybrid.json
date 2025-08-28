@@ -1,0 +1,306 @@
+{
+    "term": "Term 4",
+    "weeks": [
+        {
+            "weekNumber": 34,
+            "theme": "Dinosaurs & Fossils",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count bones to 20; compare sizes; footprint length measure (cubes).",
+                "literacy": "Letter D; words: fossil, bone, extinct; fact vs fiction sorting.",
+                "creative": "Salt-dough 'fossils'; footprint trails.",
+                "motor": {
+                    "fine": "Brush 'fossil' excavation.",
+                    "gross": "Dino movement game (stomp/prowl).",
+                    "practicalLife": "Careful brushing; tray order."
+                },
+                "socialEmotional": "Working as dig teams; patience & turn-taking.",
+                "scienceInquiry": "How fossils form; layers of 'earth' jar.",
+                "resources": {
+                    "books": [
+                        "'National Geographic Little Kids First Big Book of Dinosaurs' (selections)"
+                    ],
+                    "songs": [
+                        "Dino stomp"
+                    ],
+                    "materials": [
+                        "Salt dough",
+                        "brushes",
+                        "sand trays"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 35,
+            "theme": "Weather Extremes",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Chart windy/rainy days; compare thermometer icons.",
+                "literacy": "Letter W; words: storm, thunder, lightning, drought.",
+                "creative": "Storm art (blow painting); wind streamers.",
+                "motor": {
+                    "fine": "Pinwheel assembly.",
+                    "gross": "Parachute gusts; 'rain dash'.",
+                    "practicalLife": "Window wiping (condensation play)."
+                },
+                "socialEmotional": "Feeling safe in storms; safety talk.",
+                "scienceInquiry": "Static electricity demo (balloon); water cycle in a bag.",
+                "resources": {
+                    "books": [
+                        "'The Wind Blew'"
+                    ],
+                    "songs": [
+                        "Weather song (tempo changes)"
+                    ],
+                    "materials": [
+                        "Pinwheels",
+                        "balloons",
+                        "zip-bags"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 36,
+            "theme": "Science Lab Week",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count experiment steps; compare results (more/less/faster).",
+                "literacy": "Lab words: mix, observe, record; 'I predict…' starters.",
+                "creative": "'Scientist' badges; lab notebooks (drawings).",
+                "motor": {
+                    "fine": "Pipettes, droppers, funnels.",
+                    "gross": "Carry trays carefully; station rotations.",
+                    "practicalLife": "Safety & clean-up routines."
+                },
+                "socialEmotional": "Team inquiry; celebrate 'failures' as learning.",
+                "scienceInquiry": "Vinegar/bicarb fizz; color mixing; magnet hunts.",
+                "resources": {
+                    "books": [
+                        "Simple science picture guides"
+                    ],
+                    "songs": [
+                        "Mix, mix, mix (chant)"
+                    ],
+                    "materials": [
+                        "Pipettes",
+                        "vinegar",
+                        "bicarb",
+                        "magnets"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 37,
+            "theme": "Art & Famous Artists",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Pattern & symmetry in art; count brush strokes (games).",
+                "literacy": "Artist names; describe art with feeling words.",
+                "creative": "Styles: dots (Seurat), swirls (Van Gogh), squares (Klee).",
+                "motor": {
+                    "fine": "Brush control; cutting frames.",
+                    "gross": "Large-canvas movement painting.",
+                    "practicalLife": "Palette set-up; brush washing."
+                },
+                "socialEmotional": "Art gallery walk; compliment sentences.",
+                "scienceInquiry": "What makes colors? Primary→secondary mixing.",
+                "resources": {
+                    "books": [
+                        "'The Dot'"
+                    ],
+                    "songs": [
+                        "Art clean-up jingle"
+                    ],
+                    "materials": [
+                        "Large paper",
+                        "easels",
+                        "tempera"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 38,
+            "theme": "Numbers 11–20 Mastery",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Fluent counting to 20; match numerals→quantities; early addition/sub within 10.",
+                "literacy": "Maths language in sentences: 'I have 14…'; number stories.",
+                "creative": "Number mosaics; dot groups.",
+                "motor": {
+                    "fine": "Clip numeral to set; bead stair 1–10 then 11–20 build.",
+                    "gross": "Number hop mats to 20.",
+                    "practicalLife": "Sorting sets for sharing equally."
+                },
+                "socialEmotional": "Encourage peers; celebrate personal bests.",
+                "scienceInquiry": "Measure & record counts (tallies → simple bar).",
+                "resources": {
+                    "books": [
+                        "'Chicka Chicka 1, 2, 3'"
+                    ],
+                    "songs": [
+                        "Count to 20 (actions)"
+                    ],
+                    "materials": [
+                        "Bead chains",
+                        "ten-frames",
+                        "number cards"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 39,
+            "theme": "Letters & Sounds A–Z Recap",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Alphabet index counts (A=1…); sort by straight/curved letters.",
+                "literacy": "Full A–Z review; beginning sounds; moveable alphabet build-CVC (play).",
+                "creative": "Letter art (collage letters).",
+                "motor": {
+                    "fine": "Sandpaper letter tracing; pencil grip games.",
+                    "gross": "Air-writing large letters; letter hop.",
+                    "practicalLife": "Organise letter trays; tidy sequence."
+                },
+                "socialEmotional": "Confidence circle: 'letters I know'.",
+                "scienceInquiry": "How sound is made (voice box mirror fog test).",
+                "resources": {
+                    "books": [
+                        "'Chicka Chicka Boom Boom'"
+                    ],
+                    "songs": [
+                        "A–Z phonics song (soft)"
+                    ],
+                    "materials": [
+                        "Sandpaper letters",
+                        "moveable alphabet",
+                        "mirrors"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 40,
+            "theme": "Sports, Health & Fitness",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count reps to 20; compare times/distances.",
+                "literacy": "Words: stretch, breathe, pulse; 'I can…' frames.",
+                "creative": "Badge design; team flags.",
+                "motor": {
+                    "fine": "Lacing shoes; whistle cards.",
+                    "gross": "Obstacle course; balance & throws.",
+                    "practicalLife": "Water station setup; clean gear."
+                },
+                "socialEmotional": "Teamwork, turn-taking; winning & losing kindly.",
+                "scienceInquiry": "Heart rate before/after; lungs & breathing balloons.",
+                "resources": {
+                    "books": [
+                        "'From Head to Toe' (movement)"
+                    ],
+                    "songs": [
+                        "Warm-up chant"
+                    ],
+                    "materials": [
+                        "Cones",
+                        "stopwatch",
+                        "balloons"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 41,
+            "theme": "Yesterday–Today–Tomorrow",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Sequence 3-step timelines; count sleeps to an event.",
+                "literacy": "Words: yesterday, today, tomorrow; picture diaries.",
+                "creative": "Past/present collages; future self-drawings.",
+                "motor": {
+                    "fine": "Calendar sticker work.",
+                    "gross": "Act out routines (morning/noon/night).",
+                    "practicalLife": "Daily job charts; schedule cards."
+                },
+                "socialEmotional": "Reflect on growth; share hopes.",
+                "scienceInquiry": "Plant growth time-lapse comparisons (photos).",
+                "resources": {
+                    "books": [
+                        "'The Very Busy Day' (sequence)"
+                    ],
+                    "songs": [
+                        "Days of the week"
+                    ],
+                    "materials": [
+                        "Calendars",
+                        "stickers",
+                        "photo cards"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 42,
+            "theme": "Summer & Holidays",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count beach items; share equally (snacks, shells).",
+                "literacy": "Words: holiday, beach, travel; postcard dictation.",
+                "creative": "Sand art; sun safety posters.",
+                "motor": {
+                    "fine": "Shell threading; clip sunglasses to line.",
+                    "gross": "Beach-ball games; 'wave' parachute.",
+                    "practicalLife": "Packing a bag checklist."
+                },
+                "socialEmotional": "Safety and kindness in public spaces.",
+                "scienceInquiry": "Melting rate (sun vs shade); UV & shade demo.",
+                "resources": {
+                    "books": [
+                        "'Lucy at the Seaside' (picture)"
+                    ],
+                    "songs": [
+                        "Summer holiday (class-safe)"
+                    ],
+                    "materials": [
+                        "Shells",
+                        "sand trays",
+                        "sunscreen props"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 43,
+            "theme": "Review & Celebration",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Choice stations: counting to 20, patterns, measuring recap.",
+                "literacy": "A–Z sound hunt; name writing portfolio pieces.",
+                "creative": "Year collage; 'I can…' booklets.",
+                "motor": {
+                    "fine": "Favourite practical life stations.",
+                    "gross": "Sports day mini-circuit.",
+                    "practicalLife": "Classroom clean & organise party."
+                },
+                "socialEmotional": "Gratitude circle; friendships & memories.",
+                "scienceInquiry": "Favourite experiment reruns; predict & check.",
+                "resources": {
+                    "books": [
+                        "Class favourites recap"
+                    ],
+                    "songs": [
+                        "Goodbye song"
+                    ],
+                    "materials": [
+                        "Portfolio folders",
+                        "display boards",
+                        "stickers"
+                    ]
+                }
+            }
+        }
+    ]
+}

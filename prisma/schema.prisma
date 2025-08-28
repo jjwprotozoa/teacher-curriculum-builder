@@ -1,0 +1,114 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum DayOfWeek {
+  MON
+  TUE
+  WED
+  THU
+  FRI
+  SAT
+  SUN
+}
+
+model Project {
+  id         String   @id @default(cuid())
+  title      String
+  year       Int
+  ageGroup   String   // e.g. "3–4 years"
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  terms      Term[]
+  weeks      Week[]
+}
+
+model Term {
+  id         String   @id @default(cuid())
+  name       String   // Term 1, Term 2, etc.
+  order      Int
+  startDate  DateTime
+  endDate    DateTime
+
+  projectId  String
+  project    Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  weeks      Week[]
+
+  @@unique([projectId, order])
+}
+
+model Week {
+  id         String   @id @default(cuid())
+  number     Int      // 1..43
+  title      String   // Theme/topic
+  startDate  DateTime
+  endDate    DateTime
+
+  projectId  String
+  project    Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  termId     String
+  term       Term     @relation(fields: [termId], references: [id], onDelete: Cascade)
+
+  weeklyPlan WeeklyPlan?
+  days       DailyEntry[]
+
+  @@unique([projectId, number])
+}
+
+// New model for curriculum weeks
+model CurriculumWeek {
+  id         String   @id @default(cuid())
+  term       String   // Term name (e.g., "Term 1")
+  weekNumber Int      // Week number within the term
+  theme      String   // Theme/topic for the week
+  dates      DateTime? // Optional specific dates
+
+  weeklyPlan WeeklyPlan?
+
+  @@unique([term, weekNumber])
+}
+
+model WeeklyPlan {
+  id         String   @id @default(cuid())
+  weekId     String?  @unique // For regular weeks
+  week       Week?    @relation(fields: [weekId], references: [id], onDelete: Cascade)
+  
+  curriculumWeekId String? @unique // For curriculum weeks
+  curriculumWeek   CurriculumWeek? @relation(fields: [curriculumWeekId], references: [id], onDelete: Cascade)
+
+  // Learning goals across subjects. Keep flexible with JSON.
+  goals      Json?    // { maths: string[], literacy: string[], lifeSkills: string[], ... }
+  notes      String?
+  resources  Json?    // links, files, etc.
+  
+  // New field for curriculum stretch activities
+  stretch    Json?    // The stretch curriculum data structure
+  
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model DailyEntry {
+  id         String   @id @default(cuid())
+  weekId     String
+  week       Week     @relation(fields: [weekId], references: [id], onDelete: Cascade)
+
+  date       DateTime
+  dayOfWeek  DayOfWeek
+
+  // Activities by timetable slots (kept loose). Example below in zod type
+  activities Json     // { "07:00-07:30": [{area: "Free play", activity: "Blocks & shapes"}], ... }
+  reflections String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([weekId, date])
+}

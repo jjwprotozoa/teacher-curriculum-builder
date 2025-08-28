@@ -1,0 +1,337 @@
+{
+    "term": "Term 1",
+    "weeks": [
+        {
+            "weekNumber": 1,
+            "theme": "Orientation & Routines",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Counting routines to 10–20 (children, cups, steps); compare more/less in snack setup.",
+                "literacy": "Name recognition; sandpaper letters for initial sounds (M, P); story about classroom rules.",
+                "creative": "Draw/paint 'my classroom'; build class map with blocks.",
+                "motor": {
+                    "fine": "Pegboards, threading name beads.",
+                    "gross": "Obstacle course: line walk, hop, balance.",
+                    "practicalLife": "Packing away trays, rolling mats."
+                },
+                "socialEmotional": "Grace & courtesy: greetings, waiting turns; feelings chart.",
+                "scienceInquiry": "Classroom materials sorting (wood/metal/fabric); sink/float demo.",
+                "resources": {
+                    "books": [
+                        "'The Kissing Hand'",
+                        "'Llama Llama Misses Mama'"
+                    ],
+                    "songs": [
+                        "Hello song",
+                        "Clean-up song"
+                    ],
+                    "materials": [
+                        "Sandpaper letters M/P",
+                        "pegboards",
+                        "sorting trays"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 2,
+            "theme": "Hygiene",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count 20 handwash rubs; sequence 5-step routine; compare soap sizes.",
+                "literacy": "Letter H; vocab: germs, clean, wash; 'first/then/next' language.",
+                "creative": "Germ art (glitter before/after); design soap labels.",
+                "motor": {
+                    "fine": "Squeeze bottles, tweezers to 'pick germs'.",
+                    "gross": "Hygiene relay (wash, dry, bin).",
+                    "practicalLife": "Washing dolls' clothes; folding towels."
+                },
+                "socialEmotional": "Role-play doctor/nurse; caring for self/others.",
+                "scienceInquiry": "Glitter-handwashing experiment; UV/torch 'germ glow' demo.",
+                "resources": {
+                    "books": [
+                        "'Germs Are Not for Sharing'"
+                    ],
+                    "songs": [
+                        "Wash-Wash song to 20"
+                    ],
+                    "materials": [
+                        "Timer",
+                        "paper towels",
+                        "glitter",
+                        "soap"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 3,
+            "theme": "Myself & My Body",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count body parts (2 eyes, 10 fingers); measure height with blocks; tally hair/eye colors.",
+                "literacy": "Letter B ('body'); name writing tracing; 'I am…' sentence starters.",
+                "creative": "Self-portraits; clay faces with features.",
+                "motor": {
+                    "fine": "Finger gyms: playdough pinch/roll.",
+                    "gross": "Body-movement dice (jump, crawl).",
+                    "practicalLife": "Buttoning, zipping frames."
+                },
+                "socialEmotional": "Strengths show-and-tell; emotions mirror game.",
+                "scienceInquiry": "Five senses stations; stethoscope heartbeats.",
+                "resources": {
+                    "books": [
+                        "'From Head to Toe'"
+                    ],
+                    "songs": [
+                        "Head, Shoulders, Knees & Toes"
+                    ],
+                    "materials": [
+                        "Mirrors",
+                        "classification cards",
+                        "frames"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 4,
+            "theme": "Colours & Shapes",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Sort by color/shape; pattern AB/ABB/AAB; count sides/corners (intro).",
+                "literacy": "Letter C/S; shape words in picture hunt.",
+                "creative": "Shape collage; color mixing.",
+                "motor": {
+                    "fine": "Shape tracing, geoboards.",
+                    "gross": "Shape hopscotch.",
+                    "practicalLife": "Color-coded tray work."
+                },
+                "socialEmotional": "Team color hunts; taking turns placing shapes.",
+                "scienceInquiry": "Prism/rainbow demo; mixing primary → secondary.",
+                "resources": {
+                    "books": [
+                        "'Mouse Paint'"
+                    ],
+                    "songs": [
+                        "Color songs"
+                    ],
+                    "materials": [
+                        "Geoboards",
+                        "beads",
+                        "paint droppers"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 5,
+            "theme": "My Family",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Graph family sizes; compare more/fewer; ordinal positions (older/younger).",
+                "literacy": "Letter F; family vocabulary; label family tree.",
+                "creative": "Family portraits; build 'home' with blocks.",
+                "motor": {
+                    "fine": "Cutting frames for photos.",
+                    "gross": "Role-play home chores.",
+                    "practicalLife": "Table setting; pouring drinks."
+                },
+                "socialEmotional": "Respect different families; sharing family stories.",
+                "scienceInquiry": "Materials at home sorting (wood/metal/fabric).",
+                "resources": {
+                    "books": [
+                        "'The Family Book'"
+                    ],
+                    "songs": [
+                        "If You're Happy and You Know It (family verses)"
+                    ],
+                    "materials": [
+                        "Photo frames",
+                        "classification trays"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 6,
+            "theme": "Weather & Seasons",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Daily weather charting; count sunny/rainy days; compare lengths of shadows.",
+                "literacy": "Letter W; weather words; simple forecasts ('Today is…').",
+                "creative": "Rain sticks; wind streamers.",
+                "motor": {
+                    "fine": "Pinwheels assembly.",
+                    "gross": "Parachute 'wind' play.",
+                    "practicalLife": "Hanging wet cloths to dry."
+                },
+                "socialEmotional": "What to wear role-play; helping friends with raincoats.",
+                "scienceInquiry": "Evaporation tray; wind with fans; ice melt timing.",
+                "resources": {
+                    "books": [
+                        "'What Will the Weather Be?'"
+                    ],
+                    "songs": [
+                        "Weather song"
+                    ],
+                    "materials": [
+                        "Thermometer (toy)",
+                        "pinwheels",
+                        "parachute"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 7,
+            "theme": "Animals – Farm",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count animals to 20; legs totals (skip-count intro by 2s/4s).",
+                "literacy": "Letter A; farm vocab; sound stories ('Moo begins with…').",
+                "creative": "Animal masks; barn collage.",
+                "motor": {
+                    "fine": "Lacing animal shapes.",
+                    "gross": "Farm obstacle (bales, fences).",
+                    "practicalLife": "Scooping 'feed' grains."
+                },
+                "socialEmotional": "Caring for animals—empathy role-play.",
+                "scienceInquiry": "Classify farm vs wild; what animals eat; butter-churning jar.",
+                "resources": {
+                    "books": [
+                        "'Big Red Barn'"
+                    ],
+                    "songs": [
+                        "Old MacDonald"
+                    ],
+                    "materials": [
+                        "Grains",
+                        "lacing cards",
+                        "picture cards"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 8,
+            "theme": "Animals – Wild",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Compare sizes/heights; make bar charts of favorites.",
+                "literacy": "Letter L; habitats vocabulary; factual vs story sorting.",
+                "creative": "Animal skins texture rubbings; shadow art.",
+                "motor": {
+                    "fine": "Tweezers 'feed the cubs' game.",
+                    "gross": "Movement: stalk, leap, prowl.",
+                    "practicalLife": "Sweeping 'tracks' in sand."
+                },
+                "socialEmotional": "Discuss safety and respect for wildlife.",
+                "scienceInquiry": "Habitats (savanna/jungle/arctic); camouflage demo.",
+                "resources": {
+                    "books": [
+                        "'Dear Zoo'"
+                    ],
+                    "songs": [
+                        "Walking in the Jungle"
+                    ],
+                    "materials": [
+                        "Texture plates",
+                        "animal figures",
+                        "camouflage cloth"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 9,
+            "theme": "Transport",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count wheels; compare speeds; simple time language (before/after).",
+                "literacy": "Letter T; transport labels/signs; story maps (start→finish).",
+                "creative": "Box vehicles; track drawing.",
+                "motor": {
+                    "fine": "Nut/bolt stations; sticker lines.",
+                    "gross": "Traffic light movement game.",
+                    "practicalLife": "Washing toy cars."
+                },
+                "socialEmotional": "Road safety rules; helping friends cross.",
+                "scienceInquiry": "Ramps & slopes (distance vs height); floating/ sinking boats.",
+                "resources": {
+                    "books": [
+                        "'The Wheels on the Bus' (book)"
+                    ],
+                    "songs": [
+                        "Wheels on the Bus"
+                    ],
+                    "materials": [
+                        "Ramps",
+                        "stop/Go cards",
+                        "nuts/bolts"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 10,
+            "theme": "Food & Nutrition",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Fruit tally; halves/quarters (cut fruit); sharing equally.",
+                "literacy": "Letter F; food groups words; recipe cards with picture cues.",
+                "creative": "Food prints (okra/star shapes); menu design.",
+                "motor": {
+                    "fine": "Peeling, slicing (child-safe cutters).",
+                    "gross": "Market carry-and-sort relay.",
+                    "practicalLife": "Table setting; pouring; wiping."
+                },
+                "socialEmotional": "Polite table talk; trying new foods chart.",
+                "scienceInquiry": "Browning apples (air/acid); sprouting seeds.",
+                "resources": {
+                    "books": [
+                        "'Eating the Alphabet'"
+                    ],
+                    "songs": [
+                        "Five Little Peas"
+                    ],
+                    "materials": [
+                        "Chopping boards",
+                        "sprout jars",
+                        "picture cards"
+                    ]
+                }
+            }
+        },
+        {
+            "weekNumber": 11,
+            "theme": "Community Helpers",
+            "dates": null,
+            "stretch": {
+                "numeracy": "Count tools; match quantities to numerals; simple schedules (first/next).",
+                "literacy": "Letter J (jobs); job descriptions with picture words.",
+                "creative": "Badges/uniform designs; build a 'town' block map.",
+                "motor": {
+                    "fine": "Tool matching; clipboards with checklists.",
+                    "gross": "Rescue relay (carry, crawl, drag).",
+                    "practicalLife": "Sweeping, wiping, organizing shelves."
+                },
+                "socialEmotional": "Respect for helpers; role-play phone help lines.",
+                "scienceInquiry": "Magnets for 'tools'; water pressure in syringes.",
+                "resources": {
+                    "books": [
+                        "'Clothesline Clues to Jobs People Do'"
+                    ],
+                    "songs": [
+                        "Helper song"
+                    ],
+                    "materials": [
+                        "Magnets",
+                        "syringes (no needles)",
+                        "clipboards"
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,228 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Print Styles */
+@media print {
+  /* Hide navigation and non-essential elements */
+  header, nav, button, .no-print {
+    display: none !important;
+  }
+  
+  /* Ensure proper page breaks */
+  .page-break {
+    page-break-before: always;
+  }
+  
+  .page-break-after {
+    page-break-after: always;
+  }
+  
+  .page-break-inside-avoid {
+    page-break-inside: avoid;
+  }
+  
+  /* Optimize text for printing */
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+    color: #000;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ensure cards and content print properly */
+  .border, .shadow, [class*="hover:shadow"] {
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+  }
+  
+  /* Optimize grid layouts for print */
+  .grid {
+    display: block !important;
+  }
+  
+  .grid > * {
+    margin-bottom: 1rem;
+    page-break-inside: avoid;
+  }
+  
+  /* Ensure proper spacing */
+  [class*="p-6"], [class*="px-6"], [class*="py-8"] {
+    padding: 0.5rem !important;
+  }
+  
+  [class*="mb-8"], [class*="mb-6"], [class*="mb-4"] {
+    margin-bottom: 1rem !important;
+  }
+  
+  /* Optimize headings for print */
+  h1, h2, h3 {
+    color: #000 !important;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+  
+  /* Ensure links are readable */
+  a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+  
+  /* Curriculum print specific styles */
+  .curriculum-print {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .curriculum-print h1 {
+    font-size: 24pt !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .curriculum-print h2 {
+    font-size: 18pt !important;
+    margin-bottom: 0.75rem !important;
+  }
+  
+  .curriculum-print h3 {
+    font-size: 14pt !important;
+    margin-bottom: 0.5rem !important;
+  }
+  
+  .curriculum-print h4 {
+    font-size: 12pt !important;
+    margin-bottom: 0.5rem !important;
+  }
+  
+  .curriculum-print h5 {
+    font-size: 11pt !important;
+    margin-bottom: 0.5rem !important;
+  }
+  
+  /* Ensure proper spacing between sections */
+  .curriculum-print > div {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  /* Optimize tables and grids for print */
+  .curriculum-print .grid {
+    display: block !important;
+  }
+  
+  .curriculum-print .grid > * {
+    margin-bottom: 1rem !important;
+    page-break-inside: avoid !important;
+  }
+  
+  /* Ensure borders print properly */
+  .curriculum-print .border {
+    border: 1px solid #000 !important;
+  }
+  
+  /* Optimize text colors for print */
+  .curriculum-print .text-slate-600,
+  .curriculum-print .text-slate-700,
+  .curriculum-print .text-slate-800 {
+    color: #000 !important;
+  }
+  
+  .curriculum-print .text-indigo-600,
+  .curriculum-print .text-indigo-700,
+  .curriculum-print .text-indigo-900 {
+    color: #000 !important;
+  }
+  
+  /* Ensure proper page margins */
+  @page {
+    margin: 0.75in;
+    size: A4;
+  }
+  
+  /* Hide print modal in print output */
+  .print-modal {
+    display: none !important;
+  }
+}
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  
+}
+
+/* Print template specific styles */
+.weekly-print-template {
+  /* Ensure proper page breaks and formatting for printing */
+  page-break-inside: auto;
+  orphans: 3;
+  widows: 3;
+}
+
+.weekly-print-template h1,
+.weekly-print-template h2,
+.weekly-print-template h3,
+.weekly-print-template h4,
+.weekly-print-template h5 {
+  page-break-after: avoid;
+  page-break-inside: avoid;
+}
+
+.weekly-print-template table {
+  page-break-inside: avoid;
+}
+
+.weekly-print-template tr {
+  page-break-inside: avoid;
+}
+
+.weekly-print-template .daily-plan-card {
+  page-break-inside: avoid;
+  page-break-after: auto;
+}
+
+/* Print media queries for templates */
+@media print {
+  .weekly-print-template {
+    margin: 0;
+    padding: 20px;
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+  
+  .weekly-print-template h1 {
+    font-size: 24pt;
+    margin-bottom: 16pt;
+  }
+  
+  .weekly-print-template h2 {
+    font-size: 18pt;
+    margin-bottom: 12pt;
+  }
+  
+  .weekly-print-template h3 {
+    font-size: 14pt;
+    margin-bottom: 8pt;
+  }
+  
+  .weekly-print-template table {
+    font-size: 10pt;
+  }
+  
+  .weekly-print-template th,
+  .weekly-print-template td {
+    padding: 6pt 8pt;
+  }
+  
+  /* Ensure proper page breaks */
+  .weekly-print-template .daily-plan-card {
+    page-break-inside: avoid;
+    margin-bottom: 20pt;
+  }
+  
+  /* Hide print modal elements when printing */
+  .print-modal {
+    display: none !important;
+  }
+}
