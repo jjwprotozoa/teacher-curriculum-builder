@@ -273,9 +273,9 @@ export const SingleDayPrintTemplate = forwardRef<HTMLDivElement, SingleDayPrintT
               Daily Reflections
             </h3>
             <div className="bg-green-50 p-6 rounded-lg border border-green-200">
-              <ReactMarkdown className="prose prose-sm max-w-none text-green-800">
+              <div className="prose prose-sm max-w-none text-green-800">
                 {day.reflections}
-              </ReactMarkdown>
+              </div>
             </div>
           </div>
         )}

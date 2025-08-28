@@ -3,9 +3,10 @@ import { PageActions } from '@/components/nav/PageActions'
 import { prisma } from '@/lib/db'
 import Link from 'next/link'
 
-export default async function CurriculumYearPage({ params }: { params: { projectId: string } }) {
+export default async function CurriculumYearPage({ params }: { params: Promise<{ projectId: string }> }) {
+  const { projectId } = await params
   const curriculumYear = await prisma.project.findFirst({
-    where: { id: params.projectId },
+    where: { id: projectId },
     include: { terms: { orderBy: { order: 'asc' } }, weeks: { orderBy: { number: 'asc' } } }
   })
   if (!curriculumYear) return <div className="p-6">Not found</div>

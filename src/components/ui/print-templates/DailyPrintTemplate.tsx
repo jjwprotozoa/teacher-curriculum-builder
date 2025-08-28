@@ -127,9 +127,9 @@ export const DailyPrintTemplate = forwardRef<HTMLDivElement, DailyPrintTemplateP
               Weekly Notes & Resources
             </h3>
             <div className="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
-              <ReactMarkdown className="prose prose-sm max-w-none">
+              <div className="prose prose-sm max-w-none">
                 {week.weeklyPlan.notes}
-              </ReactMarkdown>
+              </div>
             </div>
           </div>
         )}
@@ -211,9 +211,9 @@ export const DailyPrintTemplate = forwardRef<HTMLDivElement, DailyPrintTemplateP
                   {day.reflections && (
                     <div className="mt-4 p-4 bg-green-50 rounded-lg border border-green-200">
                       <h5 className="font-semibold text-green-800 mb-2">Daily Reflections</h5>
-                      <ReactMarkdown className="prose prose-sm max-w-none text-green-700">
+                      <div className="prose prose-sm max-w-none text-green-700">
                         {day.reflections}
-                      </ReactMarkdown>
+                      </div>
                     </div>
                   )}
                 </div>

@@ -182,24 +182,24 @@ export const WeeklyPrintTemplate = forwardRef<HTMLDivElement, WeeklyPrintTemplat
                   Learning Areas
                 </h4>
                 
-                {week.weeklyPlan.stretch.numeracy && (
+                {(week.weeklyPlan.stretch as any)?.numeracy && (
                   <div className="bg-blue-50 p-3 rounded-lg border border-blue-200">
                     <h5 className="font-medium text-blue-900 mb-1">Numeracy</h5>
-                    <p className="text-sm text-blue-800">{week.weeklyPlan.stretch.numeracy as string}</p>
+                    <p className="text-sm text-blue-800">{(week.weeklyPlan.stretch as any)?.numeracy as string}</p>
                   </div>
                 )}
                 
-                {week.weeklyPlan.stretch.literacy && (
+                {(week.weeklyPlan.stretch as any)?.literacy && (
                   <div className="bg-blue-50 p-3 rounded-lg border border-blue-200">
                     <h5 className="font-medium text-blue-900 mb-1">Literacy</h5>
-                    <p className="text-sm text-blue-800">{week.weeklyPlan.stretch.literacy as string}</p>
+                    <p className="text-sm text-blue-800">{(week.weeklyPlan.stretch as any)?.literacy as string}</p>
                   </div>
                 )}
                 
-                {week.weeklyPlan.stretch.creative && (
+                {(week.weeklyPlan.stretch as any)?.creative && (
                   <div className="bg-blue-50 p-3 rounded-lg border border-blue-200">
                     <h5 className="font-medium text-blue-900 mb-1">Creative Arts</h5>
-                    <p className="text-sm text-blue-800">{week.weeklyPlan.stretch.creative as string}</p>
+                    <p className="text-sm text-blue-800">{(week.weeklyPlan.stretch as any)?.creative as string}</p>
                   </div>
                 )}
               </div>
@@ -211,49 +211,49 @@ export const WeeklyPrintTemplate = forwardRef<HTMLDivElement, WeeklyPrintTemplat
                   Development Areas
                 </h4>
                 
-                {week.weeklyPlan.stretch.motor && (
+                {(week.weeklyPlan.stretch as any)?.motor && (
                   <div className="bg-green-50 p-3 rounded-lg border border-green-200">
                     <h5 className="font-medium text-green-900 mb-1">Motor Skills</h5>
                     <div className="text-sm text-green-800 space-y-1">
-                      {week.weeklyPlan.stretch.motor.fine && (
-                        <p><strong>Fine:</strong> {week.weeklyPlan.stretch.motor.fine as string}</p>
+                      {(week.weeklyPlan.stretch as any)?.motor.fine && (
+                        <p><strong>Fine:</strong> {(week.weeklyPlan.stretch as any)?.motor.fine as string}</p>
                       )}
-                      {week.weeklyPlan.stretch.motor.gross && (
-                        <p><strong>Gross:</strong> {week.weeklyPlan.stretch.motor.gross as string}</p>
+                      {(week.weeklyPlan.stretch as any)?.motor.gross && (
+                        <p><strong>Gross:</strong> {(week.weeklyPlan.stretch as any)?.motor.gross as string}</p>
                       )}
-                      {week.weeklyPlan.stretch.motor.practicalLife && (
-                        <p><strong>Practical Life:</strong> {week.weeklyPlan.stretch.motor.practicalLife as string}</p>
+                      {(week.weeklyPlan.stretch as any)?.motor.practicalLife && (
+                        <p><strong>Practical Life:</strong> {(week.weeklyPlan.stretch as any)?.motor.practicalLife as string}</p>
                       )}
                     </div>
                   </div>
                 )}
                 
-                {week.weeklyPlan.stretch.socialEmotional && (
+                {(week.weeklyPlan.stretch as any)?.socialEmotional && (
                   <div className="bg-green-50 p-3 rounded-lg border border-green-200">
                     <h5 className="font-medium text-green-900 mb-1">Social-Emotional</h5>
-                    <p className="text-sm text-green-800">{week.weeklyPlan.stretch.socialEmotional as string}</p>
+                    <p className="text-sm text-green-800">{(week.weeklyPlan.stretch as any)?.socialEmotional as string}</p>
                   </div>
                 )}
                 
-                {week.weeklyPlan.stretch.scienceInquiry && (
+                {(week.weeklyPlan.stretch as any)?.scienceInquiry && (
                   <div className="bg-green-50 p-3 rounded-lg border border-green-200">
                     <h5 className="font-medium text-green-900 mb-1">Science & Inquiry</h5>
-                    <p className="text-sm text-green-800">{week.weeklyPlan.stretch.scienceInquiry as string}</p>
+                    <p className="text-sm text-green-800">{(week.weeklyPlan.stretch as any)?.scienceInquiry as string}</p>
                   </div>
                 )}
               </div>
             </div>
 
             {/* Resources from Stretch */}
-            {week.weeklyPlan.stretch.resources && (
+            {(week.weeklyPlan.stretch as any)?.resources && (
               <div className="mt-6">
                 <h4 className="text-lg font-semibold text-gray-800 mb-3">Resources & Materials</h4>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  {week.weeklyPlan.stretch.resources.books && (
+                  {(week.weeklyPlan.stretch as any)?.resources.books && (
                     <div className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">
                       <h5 className="font-medium text-yellow-900 mb-2">Books</h5>
                       <ul className="text-sm text-yellow-800 space-y-1">
-                        {(week.weeklyPlan.stretch.resources.books as string[]).map((book, index) => (
+                        {((week.weeklyPlan.stretch as any)?.resources.books as string[]).map((book, index) => (
                           <li key={index} className="flex items-start gap-2">
                             <span className="text-yellow-600 mt-1">•</span>
                             <span>{book}</span>
@@ -263,11 +263,11 @@ export const WeeklyPrintTemplate = forwardRef<HTMLDivElement, WeeklyPrintTemplat
                     </div>
                   )}
                   
-                  {week.weeklyPlan.stretch.resources.songs && (
+                  {(week.weeklyPlan.stretch as any)?.resources.songs && (
                     <div className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">
                       <h5 className="font-medium text-yellow-900 mb-2">Songs</h5>
                       <ul className="text-sm text-yellow-800 space-y-1">
-                        {(week.weeklyPlan.stretch.resources.songs as string[]).map((song, index) => (
+                        {((week.weeklyPlan.stretch as any)?.resources.songs as string[]).map((song, index) => (
                           <li key={index} className="flex items-start gap-2">
                             <span className="text-yellow-600 mt-1">•</span>
                             <span>{song}</span>
@@ -277,11 +277,11 @@ export const WeeklyPrintTemplate = forwardRef<HTMLDivElement, WeeklyPrintTemplat
                     </div>
                   )}
                   
-                  {week.weeklyPlan.stretch.resources.materials && (
+                  {(week.weeklyPlan.stretch as any)?.resources.materials && (
                     <div className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">
                       <h5 className="font-medium text-yellow-900 mb-2">Materials</h5>
                       <ul className="text-sm text-yellow-800 space-y-1">
-                        {(week.weeklyPlan.stretch.resources.materials as string[]).map((material, index) => (
+                        {((week.weeklyPlan.stretch as any)?.resources.materials as string[]).map((material, index) => (
                           <li key={index} className="flex items-start gap-2">
                             <span className="text-yellow-600 mt-1">•</span>
                             <span>{material}</span>
@@ -303,9 +303,9 @@ export const WeeklyPrintTemplate = forwardRef<HTMLDivElement, WeeklyPrintTemplat
               Weekly Notes & Resources
             </h3>
             <div className="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
-              <ReactMarkdown className="prose prose-sm max-w-none">
+              <div className="prose prose-sm max-w-none">
                 {week.weeklyPlan.notes}
-              </ReactMarkdown>
+              </div>
             </div>
           </div>
         )}

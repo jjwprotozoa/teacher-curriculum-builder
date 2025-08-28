@@ -6,10 +6,14 @@ import { useState } from 'react';
 
 interface WeeklyPlan {
   id: string;
-  goals?: Record<string, string[]>;
-  notes?: string;
-  stretch?: Record<string, unknown>;
-  resources?: Record<string, unknown>;
+  weekId: string | null;
+  curriculumWeekId: string | null;
+  goals: any;
+  notes: string | null;
+  resources: any;
+  stretch: any;
+  createdAt: Date;
+  updatedAt: Date;
 }
 
 interface Week {
@@ -18,7 +22,7 @@ interface Week {
   title: string;
   startDate: Date;
   endDate: Date;
-  weeklyPlan?: WeeklyPlan;
+  weeklyPlan?: WeeklyPlan | null;
   days: DailyEntry[];
 }
 
@@ -37,10 +41,13 @@ interface Term {
 
 interface DailyEntry {
   id: string;
+  weekId: string;
+  createdAt: Date;
+  updatedAt: Date;
   date: Date;
-  dayOfWeek: string;
-  activities: Record<string, Array<{ area: string; activity: string }>>;
-  reflections?: string;
+  dayOfWeek: any;
+  activities: any;
+  reflections: string | null;
 }
 
 interface TermPageClientProps {
@@ -91,7 +98,7 @@ export default function TermPageClient({ term }: TermPageClientProps) {
       {showPrintModal && (
         <PrintPreviewModal
           type="term"
-          data={term}
+          data={term as any}
           onClose={() => setShowPrintModal(false)}
         />
       )}

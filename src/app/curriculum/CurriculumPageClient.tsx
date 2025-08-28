@@ -19,19 +19,28 @@ interface Week {
   startDate: Date;
   endDate: Date;
   weeklyPlan?: {
-    goals?: any;
-    notes?: string;
-    stretch?: any;
-  };
+    id: string;
+    weekId: string | null;
+    curriculumWeekId: string | null;
+    goals: any;
+    notes: string | null;
+    resources: any;
+    stretch: any;
+    createdAt: Date;
+    updatedAt: Date;
+  } | null;
   days: DailyEntry[];
 }
 
 interface DailyEntry {
   id: string;
+  weekId: string;
+  createdAt: Date;
+  updatedAt: Date;
   date: Date;
-  dayOfWeek: string;
-  activities: Record<string, any>;
-  reflections?: string;
+  dayOfWeek: any;
+  activities: any;
+  reflections: string | null;
 }
 
 interface CurriculumPageClientProps {

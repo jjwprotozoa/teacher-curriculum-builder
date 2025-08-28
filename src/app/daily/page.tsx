@@ -50,5 +50,5 @@ export default async function DailyPage() {
     );
   }
 
-  return <DailyPageClient week={recentWeek} />;
+  return <DailyPageClient week={recentWeek as any} />;
 }

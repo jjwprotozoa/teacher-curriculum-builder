@@ -211,9 +211,9 @@ export const TermPrintTemplate = forwardRef<HTMLDivElement, TermPrintTemplatePro
                 <div className="mb-6">
                   <h5 className="text-lg font-semibold text-gray-800 mb-3">Weekly Notes</h5>
                   <div className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">
-                    <ReactMarkdown className="prose prose-sm max-w-none">
+                    <div className="prose prose-sm max-w-none">
                       {week.weeklyPlan.notes}
-                    </ReactMarkdown>
+                    </div>
                   </div>
                 </div>
               )}
@@ -287,9 +287,9 @@ export const TermPrintTemplate = forwardRef<HTMLDivElement, TermPrintTemplatePro
                         {day.reflections && (
                           <div className="mt-3 p-3 bg-green-50 rounded-lg border border-green-200">
                             <h6 className="font-semibold text-green-800 mb-2">Daily Reflections</h6>
-                            <ReactMarkdown className="prose prose-sm max-w-none text-green-700">
+                            <div className="prose prose-sm max-w-none text-green-700">
                               {day.reflections}
-                            </ReactMarkdown>
+                            </div>
                           </div>
                         )}
                       </div>

@@ -16,5 +16,5 @@ export default async function WeeksPage() {
     ]
   });
 
-  return <WeeksPageClient weeks={weeks} />;
+  return <WeeksPageClient weeks={weeks as any} />;
 }

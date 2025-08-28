@@ -17,19 +17,28 @@ interface Week {
   startDate: Date;
   endDate: Date;
   weeklyPlan?: {
-    goals?: Record<string, string[]>;
-    notes?: string;
-    stretch?: Record<string, unknown>;
-  };
+    id: string;
+    weekId: string | null;
+    curriculumWeekId: string | null;
+    goals: any;
+    notes: string | null;
+    resources: any;
+    stretch: any;
+    createdAt: Date;
+    updatedAt: Date;
+  } | null;
   days: DailyEntry[];
 }
 
 interface DailyEntry {
   id: string;
+  weekId: string;
+  createdAt: Date;
+  updatedAt: Date;
   date: Date;
-  dayOfWeek: string;
-  activities: Record<string, Array<{ area: string; activity: string }>>;
-  reflections?: string;
+  dayOfWeek: any;
+  activities: any;
+  reflections: string | null;
 }
 
 interface CurriculumPrintLayoutProps {
@@ -225,7 +234,7 @@ export function CurriculumPrintLayout({ terms, onClose }: CurriculumPrintLayoutP
                     <div className="mb-6">
                       <h4 className="text-lg font-semibold text-slate-800 mb-3">Weekly Goals</h4>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {Object.entries(week.weeklyPlan.goals).map(([subject, goals]) => (
+                        {week.weeklyPlan.goals && Object.entries(week.weeklyPlan.goals).map(([subject, goals]) => (
                           <div key={subject} className="p-3 border border-slate-200 rounded-lg page-break-inside-avoid">
                             <div className="font-medium text-slate-800 capitalize mb-2">{subject}</div>
                             {Array.isArray(goals) && goals.length > 0 ? (
@@ -308,7 +317,7 @@ export function CurriculumPrintLayout({ terms, onClose }: CurriculumPrintLayoutP
                       <h4 className="text-lg font-semibold text-slate-800 mb-3">Resources</h4>
                       <div className="p-3 bg-slate-50 rounded-lg page-break-inside-avoid">
                         <pre className="text-sm text-slate-600 whitespace-pre-wrap">
-                          {JSON.stringify(week.weeklyPlan.resources, null, 2)}
+                          {week.weeklyPlan.resources ? JSON.stringify(week.weeklyPlan.resources, null, 2) : 'No resources available'}
                         </pre>
                       </div>
                     </div>

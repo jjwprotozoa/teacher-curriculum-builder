@@ -17,10 +17,11 @@ const PENGUIN_CLASS_SLOTS = [
   '12h40 Home time'
 ];
 
-export async function POST(req: Request, { params }: { params: { weekId: string } }) {
+export async function POST(req: Request, { params }: { params: Promise<{ weekId: string }> }) {
   try {
+    const { weekId } = await params
     const week = await prisma.week.findUnique({
-      where: { id: params.weekId },
+      where: { id: weekId },
       include: { term: true }
     });
 
@@ -30,7 +31,7 @@ export async function POST(req: Request, { params }: { params: { weekId: string 
 
     // Delete existing daily entries for this week
     await prisma.dailyEntry.deleteMany({
-      where: { weekId: params.weekId }
+      where: { weekId: weekId }
     });
 
     // Generate Monday to Friday daily entries
@@ -50,7 +51,7 @@ export async function POST(req: Request, { params }: { params: { weekId: string 
 
       const dailyEntry = await prisma.dailyEntry.create({
         data: {
-          weekId: params.weekId,
+          weekId: weekId,
           date: date,
           dayOfWeek: daysOfWeek[i] as any,
           activities: activities,

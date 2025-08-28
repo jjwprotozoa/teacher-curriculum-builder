@@ -1,9 +1,10 @@
 import { prisma } from '@/lib/prisma';
 import { NextResponse } from 'next/server';
 
-export async function GET(_: Request, { params }: { params: { weekId: string } }) {
+export async function GET(_: Request, { params }: { params: Promise<{ weekId: string }> }) {
+  const { weekId } = await params
   const week = await prisma.week.findUnique({
-    where: { id: params.weekId },
+    where: { id: weekId },
     include: { 
       days: { 
         orderBy: [{ date: 'asc' }] 
