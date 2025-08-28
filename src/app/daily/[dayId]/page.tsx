@@ -2,6 +2,7 @@
 import { Badge } from '@/components/ui/Badge';
 import { Card } from '@/components/ui/Card';
 import { DaySlotPanel } from '@/components/ui/DaySlotPanel';
+import { PrintPreviewModal } from '@/components/ui/PrintPreviewModal';
 
 import { ArrowLeft, Clock, Plus, Save } from 'lucide-react';
 import Link from 'next/link';

@@ -2,7 +2,6 @@
 
 import { formatDate, formatDayOfWeek } from '@/lib/utils/dateFormatters';
 import { forwardRef } from 'react';
-import ReactMarkdown from 'react-markdown';
 
 interface WeeklyPlan {
   id: string;
