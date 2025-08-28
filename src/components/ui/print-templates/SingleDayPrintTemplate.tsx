@@ -1,7 +1,6 @@
 'use client';
 
 import { forwardRef } from 'react';
-import ReactMarkdown from 'react-markdown';
 
 interface DayData {
   id: string;
