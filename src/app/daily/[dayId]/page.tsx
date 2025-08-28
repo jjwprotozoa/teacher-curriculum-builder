@@ -254,21 +254,21 @@ export default function DayPage({ params }: DayPageProps) {
       },
       '08h00–08h40 Morning ring / News': {
         area: 'Literacy and communication',
-        materials: curriculumContext.stretch.resources.books.slice(0, 2),
-        ...curriculumContext.stretch.resources.materials.slice(0, 3)
+        materials: (curriculumContext.stretch as any)?.resources?.books?.slice(0, 2),
+        ...(curriculumContext.stretch as any)?.resources?.materials?.slice(0, 3)
       },
       '08h40–09h00 Music / Movement': {
         area: 'Creative arts and gross motor development',
-        materials: curriculumContext.stretch.resources.songs.slice(0, 2),
-        ...curriculumContext.stretch.resources.materials.filter(m => m.includes('music') || m.includes('dance'))
+        materials: (curriculumContext.stretch as any)?.resources?.songs?.slice(0, 2),
+        ...(curriculumContext.stretch as any)?.resources?.materials?.filter(m => m.includes('music') || m.includes('dance'))
       },
       '09h00–09h30 Free play & Fruit routine': {
         area: 'Practical life and healthy eating',
         materials: ['Fruit', 'Cutting board', 'Child-safe knives', 'Plates']
       },
       '09h30–10h30 Creative art activities': {
-        area: curriculumContext.stretch.creative,
-        materials: curriculumContext.stretch.resources.materials.filter(m => 
+        area: (curriculumContext.stretch as any)?.creative,
+        materials: (curriculumContext.stretch as any)?.resources?.materials?.filter(m => 
           m.includes('paint') || m.includes('paper') || m.includes('crayons') || m.includes('clay')
         )
       },
@@ -281,12 +281,12 @@ export default function DayPage({ params }: DayPageProps) {
         materials: ['Role-play props', 'Dolls', 'Kitchen set']
       },
       '11h20–12h00 Structured outside play': {
-        area: curriculumContext.stretch.motor.gross,
+        area: (curriculumContext.stretch as any)?.motor?.gross,
         materials: ['Balls', 'Hula hoops', 'Balance beams', 'Obstacle course items']
       },
       '12h00–12h30 Story time': {
-        area: curriculumContext.stretch.literacy,
-        materials: curriculumContext.stretch.resources.books
+        area: (curriculumContext.stretch as any)?.literacy,
+        materials: (curriculumContext.stretch as any)?.resources?.books
       },
       '12h30–12h40 Pack away time': {
         area: 'Practical life and responsibility',
@@ -423,9 +423,9 @@ export default function DayPage({ params }: DayPageProps) {
                     Learning Objectives
                   </h3>
                   <div className="space-y-2 text-sm text-indigo-800">
-                    <p><strong>Numeracy:</strong> {curriculumContext.stretch.numeracy}</p>
-                    <p><strong>Literacy:</strong> {curriculumContext.stretch.literacy}</p>
-                    <p><strong>Creative:</strong> {curriculumContext.stretch.creative}</p>
+                                    <p><strong>Numeracy:</strong> {(curriculumContext.stretch as any)?.numeracy}</p>
+                <p><strong>Literacy:</strong> {(curriculumContext.stretch as any)?.literacy}</p>
+                <p><strong>Creative:</strong> {(curriculumContext.stretch as any)?.creative}</p>
                   </div>
                 </div>
                 
@@ -436,9 +436,9 @@ export default function DayPage({ params }: DayPageProps) {
                     Development Goals
                   </h3>
                   <div className="space-y-2 text-sm text-indigo-800">
-                    <p><strong>Motor Skills:</strong> {curriculumContext.stretch.motor.fine}, {curriculumContext.stretch.motor.gross}</p>
-                    <p><strong>Social-Emotional:</strong> {curriculumContext.stretch.socialEmotional}</p>
-                    <p><strong>Science:</strong> {curriculumContext.stretch.scienceInquiry}</p>
+                                    <p><strong>Motor Skills:</strong> {(curriculumContext.stretch as any)?.motor?.fine}, {(curriculumContext.stretch as any)?.motor?.gross}</p>
+                <p><strong>Social-Emotional:</strong> {(curriculumContext.stretch as any)?.socialEmotional}</p>
+                <p><strong>Science:</strong> {(curriculumContext.stretch as any)?.scienceInquiry}</p>
                   </div>
                 </div>
               </div>
@@ -447,12 +447,12 @@ export default function DayPage({ params }: DayPageProps) {
               <div className="mt-4 pt-4 border-t border-indigo-200">
                 <h4 className="font-medium text-indigo-900 mb-2">Quick Resources:</h4>
                 <div className="flex flex-wrap gap-2">
-                  {curriculumContext.stretch.resources.books.slice(0, 2).map((book, index) => (
+                                        {(curriculumContext.stretch as any)?.resources?.books?.slice(0, 2)?.map((book, index) => (
                     <Badge key={index} variant="default" className="text-xs">
                       📚 {book}
                     </Badge>
                   ))}
-                  {curriculumContext.stretch.resources.materials.slice(0, 3).map((material, index) => (
+                                      {(curriculumContext.stretch as any)?.resources?.materials?.slice(0, 3)?.map((material, index) => (
                     <Badge key={index} variant="default" className="text-xs">
                       🎨 {material}
                     </Badge>

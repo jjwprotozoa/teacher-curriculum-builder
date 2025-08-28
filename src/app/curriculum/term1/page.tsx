@@ -150,7 +150,7 @@ export default function Term1CurriculumPage() {
                         <span className="w-3 h-3 bg-blue-500 rounded-full"></span>
                         Numeracy
                       </h4>
-                      <p className="text-sm text-slate-700">{week.weeklyPlan.stretch.numeracy}</p>
+                      <p className="text-sm text-slate-700">{(week.weeklyPlan.stretch as any)?.numeracy}</p>
                     </div>
                     
                     <div>
@@ -158,7 +158,7 @@ export default function Term1CurriculumPage() {
                         <span className="w-3 h-3 bg-green-500 rounded-full"></span>
                         Literacy
                       </h4>
-                      <p className="text-sm text-slate-700">{week.weeklyPlan.stretch.literacy}</p>
+                      <p className="text-sm text-slate-700">{(week.weeklyPlan.stretch as any)?.literacy}</p>
                     </div>
                     
                     <div>
@@ -166,7 +166,7 @@ export default function Term1CurriculumPage() {
                         <span className="w-3 h-3 bg-purple-500 rounded-full"></span>
                         Creative Arts
                       </h4>
-                      <p className="text-sm text-slate-700">{week.weeklyPlan.stretch.creative}</p>
+                      <p className="text-sm text-slate-700">{(week.weeklyPlan.stretch as any)?.creative}</p>
                     </div>
                   </div>
                 </div>
@@ -185,9 +185,9 @@ export default function Term1CurriculumPage() {
                         Motor Skills
                       </h4>
                       <div className="text-sm text-slate-700 space-y-1">
-                        <p><strong>Fine:</strong> {week.weeklyPlan.stretch.motor.fine}</p>
-                        <p><strong>Gross:</strong> {week.weeklyPlan.stretch.motor.gross}</p>
-                        <p><strong>Practical Life:</strong> {week.weeklyPlan.stretch.motor.practicalLife}</p>
+                        <p><strong>Fine:</strong> {(week.weeklyPlan.stretch as any)?.motor?.fine}</p>
+                        <p><strong>Gross:</strong> {(week.weeklyPlan.stretch as any)?.motor?.gross}</p>
+                        <p><strong>Practical Life:</strong> {(week.weeklyPlan.stretch as any)?.motor?.practicalLife}</p>
                       </div>
                     </div>
                     
@@ -196,7 +196,7 @@ export default function Term1CurriculumPage() {
                         <span className="w-3 h-3 bg-red-500 rounded-full"></span>
                         Social-Emotional
                       </h4>
-                      <p className="text-sm text-slate-700">{week.weeklyPlan.stretch.socialEmotional}</p>
+                      <p className="text-sm text-slate-700">{(week.weeklyPlan.stretch as any)?.socialEmotional}</p>
                     </div>
                     
                     <div>
@@ -204,7 +204,7 @@ export default function Term1CurriculumPage() {
                         <span className="w-3 h-3 bg-teal-500 rounded-full"></span>
                         Science & Inquiry
                       </h4>
-                      <p className="text-sm text-slate-700">{week.weeklyPlan.stretch.scienceInquiry}</p>
+                      <p className="text-sm text-slate-700">{(week.weeklyPlan.stretch as any)?.scienceInquiry}</p>
                     </div>
                   </div>
                 </div>
@@ -226,7 +226,7 @@ export default function Term1CurriculumPage() {
                       Books
                     </h4>
                     <ul className="text-sm text-slate-700 space-y-1">
-                      {week.weeklyPlan.stretch.resources.books.map((book, index) => (
+                      {(week.weeklyPlan.stretch as any)?.resources?.books?.map((book, index) => (
                         <li key={index} className="flex items-start gap-2">
                           <span className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 flex-shrink-0"></span>
                           {book}
@@ -241,7 +241,7 @@ export default function Term1CurriculumPage() {
                       Songs & Rhymes
                     </h4>
                     <ul className="text-sm text-slate-700 space-y-1">
-                      {week.weeklyPlan.stretch.resources.songs.map((song, index) => (
+                      {(week.weeklyPlan.stretch as any)?.resources?.songs?.map((song, index) => (
                         <li key={index} className="flex items-start gap-2">
                           <span className="w-1.5 h-1.5 bg-green-600 rounded-full mt-2 flex-shrink-0"></span>
                           {song}
@@ -256,7 +256,7 @@ export default function Term1CurriculumPage() {
                       Materials
                     </h4>
                     <ul className="text-sm text-slate-700 space-y-1">
-                      {week.weeklyPlan.stretch.resources.materials.map((material, index) => (
+                      {(week.weeklyPlan.stretch as any)?.resources?.materials?.map((material, index) => (
                         <li key={index} className="flex items-start gap-2">
                           <span className="w-1.5 h-1.5 bg-purple-600 rounded-full mt-2 flex-shrink-0"></span>
                           {material}

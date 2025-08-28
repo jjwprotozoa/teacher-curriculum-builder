@@ -146,9 +146,9 @@ export const SingleDayPrintTemplate = forwardRef<HTMLDivElement, SingleDayPrintT
                   Learning Areas
                 </h4>
                 <div className="space-y-2 text-sm text-blue-800">
-                  <p><strong>Numeracy:</strong> {curriculumContext.stretch.numeracy}</p>
-                  <p><strong>Literacy:</strong> {curriculumContext.stretch.literacy}</p>
-                  <p><strong>Creative:</strong> {curriculumContext.stretch.creative}</p>
+                                  <p><strong>Numeracy:</strong> {(curriculumContext.stretch as any)?.numeracy}</p>
+                <p><strong>Literacy:</strong> {(curriculumContext.stretch as any)?.literacy}</p>
+                <p><strong>Creative:</strong> {(curriculumContext.stretch as any)?.creative}</p>
                 </div>
               </div>
               
@@ -159,10 +159,10 @@ export const SingleDayPrintTemplate = forwardRef<HTMLDivElement, SingleDayPrintT
                   Development Goals
                 </h4>
                 <div className="space-y-2 text-sm text-green-800">
-                  <p><strong>Fine Motor:</strong> {curriculumContext.stretch.motor.fine}</p>
-                  <p><strong>Gross Motor:</strong> {curriculumContext.stretch.motor.gross}</p>
-                  <p><strong>Social-Emotional:</strong> {curriculumContext.stretch.socialEmotional}</p>
-                  <p><strong>Science:</strong> {curriculumContext.stretch.scienceInquiry}</p>
+                                  <p><strong>Fine Motor:</strong> {(curriculumContext.stretch as any)?.motor?.fine}</p>
+                <p><strong>Gross Motor:</strong> {(curriculumContext.stretch as any)?.motor?.gross}</p>
+                <p><strong>Social-Emotional:</strong> {(curriculumContext.stretch as any)?.socialEmotional}</p>
+                <p><strong>Science:</strong> {(curriculumContext.stretch as any)?.scienceInquiry}</p>
                 </div>
               </div>
             </div>
@@ -174,7 +174,7 @@ export const SingleDayPrintTemplate = forwardRef<HTMLDivElement, SingleDayPrintT
                 <div className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">
                   <h5 className="font-medium text-yellow-900 mb-2">Books</h5>
                   <ul className="text-sm text-yellow-800 space-y-1">
-                    {curriculumContext.stretch.resources.books.map((book, index) => (
+                    {(curriculumContext.stretch as any)?.resources?.books?.map((book, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <span className="text-yellow-600 mt-1">•</span>
                         <span>{book}</span>
@@ -186,7 +186,7 @@ export const SingleDayPrintTemplate = forwardRef<HTMLDivElement, SingleDayPrintT
                 <div className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">
                   <h5 className="font-medium text-yellow-900 mb-2">Songs</h5>
                   <ul className="text-sm text-yellow-800 space-y-1">
-                    {curriculumContext.stretch.resources.songs.map((song, index) => (
+                    {(curriculumContext.stretch as any)?.resources?.songs?.map((song, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <span className="text-yellow-600 mt-1">•</span>
                         <span>{song}</span>
@@ -198,7 +198,7 @@ export const SingleDayPrintTemplate = forwardRef<HTMLDivElement, SingleDayPrintT
                 <div className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">
                   <h5 className="font-medium text-yellow-900 mb-2">Materials</h5>
                   <ul className="text-sm text-yellow-800 space-y-1">
-                    {curriculumContext.stretch.resources.materials.map((material, index) => (
+                    {(curriculumContext.stretch as any)?.resources?.materials?.map((material, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <span className="text-yellow-600 mt-1">•</span>
                         <span>{material}</span>
