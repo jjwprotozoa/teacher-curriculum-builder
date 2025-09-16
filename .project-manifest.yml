@@ -1,0 +1,12 @@
+title: Curriculum Builder (Pre-Primary)
+include: true
+visibility: featured
+status: in-progress
+tier: experiment
+stack: [Next.js, TypeScript, Tailwind, shadcn, Prisma, SQLite, Ollama]
+roles: [Founder, Full-stack]
+highlights:
+  - Term/Week/Day schema (43-week year)
+  - AI plan generation (local models)
+  - Printable exports + resource DB
+topics: [portfolio:include, domain:edtech, ai, nextjs]
